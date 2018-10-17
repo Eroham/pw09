@@ -1,0 +1,43 @@
+body{
+	font-size: 16px; /*1em*/
+	margin: 0px auto;
+	/*1078 es requerimiento del cliente*/
+	max-width: 1024px;
+	min-height: 1024px;
+}
+header input{
+	float: right;
+	margin-right: -200px;
+	margin-top: 15px;
+	position: relative;
+}
+header nav{
+	margin-left: 220px;
+	/*text-align: center;*/
+}
+header nav ul li{
+	border-bottom: 1px solid gray;
+	color: gray;
+	display: inline-block;
+	font-size: 1.8em;
+	margin-right: 15px;
+	padding-bottom: 2px;
+	/*text-decoration: underline;*/
+}
+#bgoffer{
+	left: -35px;
+	position: relative;
+	top: -410px;
+}
+#granthams{
+	margin-left: 25px;
+	margin-top: 25px;	
+}
+#paint{
+	float: right;
+}
+#primerseccion{
+	/*border: 1px solid blue;*/
+	height: 318px;
+	margin-top: 60px;
+}
