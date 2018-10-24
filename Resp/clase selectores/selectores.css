@@ -1,0 +1,50 @@
+img[alt]{
+	border:5px solid blue;
+}
+img[src="logo.png"]{
+	width: 400px;
+}
+img[src^="lo"]{
+	width: 150px;
+}
+img[src$="png"]{
+	width: 250px;
+}
+img[src*="go"]{
+	width: 100px;
+}
+/*.resaltado es lo mismo */
+article[class~="resaltado"]{
+	border: 1px dashed blue;
+}
+article[class~="archivo"]{
+	border: 1px dashed red;
+}
+article[class~="ingles"]{
+	border: 5px dashed green;
+}
+article[class|="ingles"]{
+	text-align: center;	
+}
+/*solo los hijos directos*/
+div > p{
+	color: blue;
+}
+/*todos*/
+div p{
+	color: red;
+}
+/*seleccionar el de abajo*/
+h2 + p{
+	color: gray;
+}
+/*seleccionar todos los hermanos del elemento*/
+h2 ~ p{
+	color: green;
+}
+#resumen,#experimento,#pruebas,#resultado,#conclucion{
+	color: tomato;
+}
+section:not(#referencias){
+	color: blue;
+}

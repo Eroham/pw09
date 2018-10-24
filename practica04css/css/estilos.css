@@ -1,0 +1,154 @@
+/* prueba 2 */
+body{
+	margin: 0px auto;	
+	max-width: 1340px;
+	min-width: 1340px;
+	min-height: 1080px;
+}
+header{	
+	width: 1340px;	
+	display: inline-block;
+	border-bottom : 1px dashed;
+
+}
+header article{
+	display: inline-block;
+}
+header article ul{
+	margin-left: -20px;
+	list-style: none;
+	display: inline-flex;
+
+}
+header article ul li{
+	padding-right: 45px;
+	font-weight: bold;	
+}
+#art01{
+	display: inline-grid;
+	margin-right: 385px;		
+}
+#art01 img{
+	margin-top: 30px;
+	margin-left: 15px;
+	margin-bottom: 50px;
+}
+#art02{	
+	display: inline-grid;	
+	height: 190px;
+}
+#art02 article img{
+	position: relative;
+	right: -60px;
+	top: -40px;
+
+}
+#seccion01{	
+	display: inline-flex;	
+	margin-bottom: 60px;
+}
+#seccion01art01{		
+	width: 730px;		
+}
+#seccion01art01 article{
+	border-bottom: 1px dashed;
+	padding-bottom: 20px;
+	padding-top: 15px;
+	margin-bottom: 40px;
+}
+#seccion01art01 p{		
+	margin-left: 20px;
+	font-size: 1.33em;
+	margin-bottom: 30px;
+}
+#seccion01art01 img{		
+	margin-left: 20px;
+}
+#seccion01art02{
+	width: 610px;
+	height: 550px;	
+}
+#seccion02{	
+	padding-left: 20px;
+}
+#seccion02 span{
+	position: relative;
+	bottom: 20px;
+	font-size: 1.33em;
+}
+#seccion02 article{
+	margin-top: 30px;
+}
+#seccion02 article ul{
+	margin-left: -32px;
+	list-style: none;
+	display: inline-flex;
+
+}
+#seccion02art01 ul > li{
+	margin-right: 40px;
+	padding-right: 90px;
+	border-bottom: 1px solid gray;	
+	padding-bottom: 10px;
+	font-size: 1.1em;
+}
+#seccion02art02{
+	position: relative;
+	top: -60px;
+	left: 10px;
+
+}
+#seccion02art02 article{	
+	display: inline-flex;		
+}
+#imggo{
+	position: relative;
+	right: 150px;
+	bottom: 30px;
+}
+#imgbuy{
+	position: relative;	
+	bottom: 35px;
+	right: 220px;
+}
+#imgbike{
+	position: relative;
+	left: 70px;
+	top: 10px;
+	
+}
+#imgfive{
+	position: relative;
+	bottom: 90px;
+	left: 10px;
+}
+#balance{
+	color: rgb(120,241,76);
+}
+#new{
+	border-bottom: 1px solid gray;	
+	padding-bottom: 15px;
+	margin-top: -30px;	
+	padding-right: 140px;
+}
+#sec1{
+	margin-right: 68px;
+}
+#sec2{
+	margin-right: 130px;
+}
+#sec3{
+	margin-right: 100px;
+}
+#sec4{
+	margin-right: 92px;
+}
+.letragrande{
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 5em;
+}
+
+
+
+
