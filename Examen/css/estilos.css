@@ -1,0 +1,117 @@
+body{
+	background: 	
+	margin: 0px auto;	
+	max-width: 1340px;
+	min-width: 1340px;
+	min-height: 1080px;
+}
+header{	
+	background-color: #3a3a3a;
+	width: 1340px;	
+	display: inline-block;
+	border-bottom : 1px dashed;
+
+}
+header article{
+	display: inline-block;
+}
+header article ul{
+	margin-left: -20px;
+	list-style: none;
+	display: inline-flex;
+
+}
+header article ul li{
+	padding-right: 45px;
+	font-weight: bold;	
+}
+
+#art01{
+
+	display: inline-grid;
+	margin-right: 200px;		
+}
+#art01 img{
+	display: inline-grid;
+}
+
+
+#seccion01{
+	width: 1340px;
+	background-color: #E62C85;
+	display: inline-block;
+	border-bottom : 1px dashed;
+	
+}
+
+
+#seccion01 article {
+	display: inline-block;
+	padding-right: 45px;
+}
+
+login{
+	background-color: 
+}
+
+#sign{
+	background-color: blue;
+}
+
+
+#seccion02{
+	width: 1340px;
+	background-color: black;
+	display: inline-flex;
+	border-bottom : 1px dashed;
+	
+}
+
+#seccion02 article {
+
+	padding-top: 30px;	
+	margin-top: 20px;
+	border-top: solid rgb(68,68,68) 0.02px; 
+}
+
+
+#seccion03{
+	width: 1340px;
+	background-color: orange;
+	border-bottom : 1px dashed;
+	
+}
+
+#find{
+	
+
+}
+
+#seccion03 article {
+	padding-right: 45px;
+}
+
+
+
+.nito{
+	font-weight: bold;
+}
+
+.colorgray{
+	color: gray;
+}
+.colorwhite{
+	color: white;
+}
+
+.letragrande{
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 5em;
+}
+
+.letramediana{
+	margin-left: 20px;
+	font-weight: bold;
+	font-size: 2em;
+}
