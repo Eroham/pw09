@@ -1,0 +1,95 @@
+body{
+	border: 1px solid black;
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1400px;
+	min-width: 1400px;
+}
+
+header{
+
+	display: inline-flex;
+	width: 1400px;
+	border-bottom: 2px solid black;
+}
+
+header input{
+	font-size: 1.3em;
+}
+
+
+#NORT{
+	border: 1px solid white;
+	border-radius: 1px;
+	margin-top: 10px;
+	left: 400px;
+	position: relative;
+
+}
+
+#Eur{
+
+	border: 1px solid white;
+	border-radius: 1px;
+	margin-top: 10px;
+	left: 700px;
+	position: relative;
+}
+
+#Cart{
+
+	border: 1px solid white;
+	border-radius: 1px;
+	margin-top: 10px;
+	left: 720px;
+	position: relative;
+}
+
+#Indigo{
+	left: 100px;
+	top: -350px;
+	position: relative;
+	font-size: 2.5em;
+
+}
+
+
+#seccion01{
+	display: inline-block;
+	height: 100px;
+	margin-top: 10px; 
+	width: 1100px;
+}
+
+#Planta{
+	left: 0px;
+	position: relative;
+	
+}
+
+#seccion02 {
+	display: inline-block;
+	width: 100px;
+}
+
+
+#secc02art01{
+	border-left: 2px solid black;
+}
+
+}
+.letra_grande{
+	font-size: 5em;
+}
+.letra_mediana{
+	color: white;
+	font-size: 1.5em;
+}
+
+.letra_gris{
+	color: #6e6e6e;
+}
+
+.nito{
+	font-weight: bold;
+}
