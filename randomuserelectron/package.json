@@ -1,0 +1,20 @@
+{
+  "name": "randomuserelectron",
+  "version": "1.0.0",
+  "description": "Usuarios para electron",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "asar": "^0.14.5",
+    "electron": "^3.0.9",
+    "electron-package": "^0.1.0",
+    "electron-require": "^0.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+
+  "author": "LIC Eroham Lares",
+  "license": "MIT"
+}
