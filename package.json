@@ -1,28 +1,27 @@
 {
   "name": "marvel2183",
   "version": "1.0.0",
-  "description": "Electron personajes de Marvel",
-  "main": "main.js",
+  "description": "Electron Personajes de Marvel",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron .",
-    "empaqueta": "electron-package . Marvel --overwhite --asar"
-
+    "empaqueta": "electron-packager . Marvel --overwrite --asar"
   },
   "keywords": [
     "Marvel",
-    "Electron",
+    "electron",
     "javascript",
     "html",
     "css",
     "rc"
   ],
-  "author": "Lic Eroham Lares",
+  "author": "Lic. Eroham Lares",
   "license": "MIT",
-  "devDependencies": {
-    "asar": "^0.14.5",
+  "dependencies": {
     "electron": "^3.0.10",
-    "electron-package": "^0.1.0",
+    "electron-packager": "^12.2.0",
     "electron-require": "^0.3.0"
-  }
+  },
+  "devDependencies": {}
 }
